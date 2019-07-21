@@ -2,17 +2,59 @@ html{
   height: 100%;
   width: 100%;
 }
-body {
-  background-color: #581908;
-}
-#main-container {
-  width: calc(100% - 100px);
+
+.main-container {
   max-width: 900px;
-  height: 500px;
-  background-color: white;
-  margin: 50px 50px 0 50px;
-  border: 1px outset #aaaaaa;
+  margin-left: auto;
+  margin-right: auto;
 }
-#main-logo-text{
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.header-image-box {
+  width: 60%;
+}
+#main-logo-text {
   width: 100%;
+}
+
+#main-image {
+  width: 100%;
+}
+
+.header-links {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding-bottom: 46px;
+}
+
+.header-links a {
+  display: inline-block;
+  color: #973;
+  font-size: 24px;
+}
+
+.header-links a:hover {
+  color: #AAA;
+}
+
+.section {
+  width: fit-content;
+  margin: 10px auto 20px auto;
+}
+
+.section h3 {
+  font-size: 24px;
+}
+
+.hours h4{
+  font-weight: bold;
+  text-decoration: underline;
 }
