@@ -213,9 +213,11 @@ body {
   }
   #main-image {
     height: 600px;
-    background-size: 1824px 600px;
+    background-size: 900px 600px;
     margin-top: 50px;
     margin-bottom: 50px;
+    background-position-y: 0px;
+
   }
   .section h3 {
     font-size: 54px;
