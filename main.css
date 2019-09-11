@@ -29,10 +29,11 @@ body {
 }
 
 #main-image {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREYZzDKwgmfr503q3sCVvEw8kyUEaAG7JCnqFBAG_LCTF990r1eQ");
+  background-image: url("./assets/images/deli-exterior.jpg");
   width: 100%;
-  height: 300px;
-  background-size: 911px 300px;
+  height: 320px;
+  background-size: 911px 683px;
+  background-position-y: 350px;
 }
 
 .header-links {
@@ -46,12 +47,14 @@ body {
 
 .header-links a {
   display: inline-block;
-  color: #973;
   font-size: 24px;
+  color: #900;
 }
 
 .header-links .link-active {
   color: #99f;
+  color: #ec9;
+
 }
 
 .header-links a:hover {
@@ -152,6 +155,10 @@ body {
 
 #announcement {
   padding: 20px;
+}
+
+#announcement-text {
+  font-size: 50px;
 }
 
 /* contact page */
@@ -269,7 +276,12 @@ body {
 
   #announcement {
     padding: 20px;
+    font-size: 50px;
   }
+
+  /* #announcement-text {
+    font-size: 50px;
+  } */
 
   #hours-title {
     font-size: 130px;
